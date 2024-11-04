@@ -68,3 +68,6 @@ coverage/
 
 # Metro
 .metro-health-check*
+
+# API Credentials
+services/mangaDexApi.js
