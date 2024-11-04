@@ -1,0 +1,70 @@
+# Abhängigkeiten
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Expo
+.expo/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+*.ipa
+*.apk
+
+# Entwicklungsumgebung
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Umgebungsvariablen
+.env
+.env.*
+!.env.example
+
+# Build-Ausgaben
+build/
+dist/
+out/
+
+# Typescript
+*.tsbuildinfo
+*.js.map
+
+# Logs und Debugging
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporäre Dateien
+*.tmp
+*.temp
+.cache/
+
+# Sicherheitsrelevante Dateien
+*.pem
+*.cert
+*.key
+*.p12
+*.pfx
+*.keystore
+google-services.json
+GoogleService-Info.plist
+
+# Test Coverage
+coverage/
+.nyc_output/
+
+# Metro
+.metro-health-check*
